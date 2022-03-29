@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Fylo landing page with two column layout</title>
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bg-color--white">
+
+  <header role="navigation" class="navbar f f-align--center f-justify--space-between content">
+    <img src="./assets/images/logo.svg" alt="Fylo logo" class="navbar-logo">
+    <nav class="navbar-links">
+      <a href="#" aria-label="Features">Features</a>
+      <a href="#" aria-label="Team">Team</a>
+      <a href="#" aria-label="Sign In">Sign In</a>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section class="f f-col--sm f-col-reverse--lg content padding-vertical--section gap-1--md gap-1--lg">
+      <img src="./assets/images/illustration-1.svg" alt="Files" class="img padding-vertical">
+      <div class="f f-col f-align--center f-align-start--lg f-justify--center w-100p--lg">
+        <h1 class="title title--h1 color--black text--center text-left--lg padding-vertical">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p class="text text--s1 padding-square--sm padding-square--md text--center text-left--lg color--black">
+          Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.
+        </p>
+        <form action="javascript:void(0)" method="post"
+          class="padding-square--sm padding-square--md form-group w-100p--sm w-80p--md f-row--lg padding-vertical--lg">
+          <input type="email" name="email" id="email" placeholder="Enter your email..." class="input">
+          <button type="submit" aria-label="Get Started" class="btn btn--primary shadow">Get Started</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="bg-curve"></div>
+
+    <section class="bg-color--light">
+      <div class="f f-col--sm f-align--center f-col-reverse--lg content gap-1--md gap-1--lg">
+        <img src="./assets/images/illustration-2.svg" alt="Stay productive" class="img w-70p--lg">
+
+        <div class="padding-vertical--section-big f--md f-col--md gap-1--md">
+          <div class="f f-col f-align-center--sm gap--1">
+            <h1 class="title title--h1 color--black text--center text-left--lg padding-vertical">
+              Stay productive, wherever you are
+            </h1>
+            <p class="text text--s1 color--gray">
+              Never let location be an issue when accessing your files. Fylo has you
+              covered for all of your file storage needs.
+            </p>
+            <p class="text text--s1 color--gray">
+              Securely share files and folders with friends, family and colleagues for
+              live collaboration. No email attachments required!
+            </p>
+            <span class="padding-vertical f f-justify-center--md">
+              <a href="#" aria-label="See how Fylo works" class="text--s2 color--cyan link link--icon link--underline">
+                See how Fylo works
+                <i class="icon icon--min icon--arrow"></i>
+              </a>
+            </span>
+          </div>
+
+          <div class="f f-align-center--sm f-justify-center--md padding-top--lg ">
+            <div class="card card--s-md bg-color--white shadow w-80p--md">
+              <img src="./assets/images/icon-quotes.svg" alt="Quotes">
+              <p class="text text--s2 color--black">
+                Fylo has improved our team productivity by an order of magnitude. Since
+                making the switch our team has become a well-oiled collaboration machine.
+              </p>
+              <div class="f f-align--center gap--2 padding-vertical">
+                <img src="./assets/images/avatar-testimonial.jpg" alt="Avatar testimonial" class="card-img">
+                <div>
+                  <p class="title text--s2 color--black">Kyle Burton</p>
+                  <p class="text text--s3 color--gray">Founder & CEO, Huddle</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-color--des-blue color--white">
+      <div
+        class="content padding-vertical--section-mid padding-vertical-section-mid--lg f f-col--sm f-align--center gap-1--sm gap-1--md">
+        <div class="f f-col f-align-center--sm gap--1 w-50p--md">
+          <h1 class="title title--h2">
+            Get early access today
+          </h1>
+          <p class="text text--s1 text-center--sm padding-horizontal--sm w-70p--lg">
+            It only takes a minute to sign up and our free starter tier is extremely generous.
+            If you have any questions, our support team would be happy to help you.
+          </p>
+        </div>
+        <form action="javascript:void(0)" method="post" class="padding-square--sm form-group w-80--sm w-50p--md">
+          <input type="email" name="email" id="email" placeholder="email@example.com"
+            class="input input-min--sm shadow">
+          <button type="submit" aria-label="Get Started For Free"
+            class="btn btn-min--sm btn-min--lg btn--primary shadow">Get
+            Started For
+            Free</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo"
+    class="bg-color--dark-blue color--light padding-vertical--section-mid padding-vertical-section-mid--lg">
+    <div class="content padding-horizontal--sm f f-col gap-mid--sm gap-2--md gap-2--lg">
+      <span class="icon icon--logo bg-color--light"></span>
+
+      <div class="f f-col--sm gap-big--sm gap-big--lg f-justify-space-between--md">
+        <div class="f f-col gap--1">
+          <span class="f f-align--center gap--1 text text--s1">
+            <i class=" icon icon--min icon--phone bg-color--light"></i>
+            Phone: +1-543-123-4567
+          </span>
+          <span class="f f-align--center gap--1 text text--s1">
+            <i class="icon icon--min icon--email bg-color--light"></i>
+            example@fylo.com
+          </span>
+        </div>
+
+        <div class="f f-col gap--1">
+          <a href="#" class="link text--s1 color--light">
+            About Us</a>
+          <a href="#" class="link text--s1 color--light">
+            Jobs
+          </a>
+          <a href="#" class="link text--s1 color--light">
+            Press
+          </a>
+          <a href="#" class="link text--s1 color--light">
+            Blog
+          </a>
+        </div>
+
+        <div class="f f-col gap--1">
+          <a href="#" class="link text--s1 color--light">
+            Contact Us
+          </a>
+          <a href="#" class="link text--s1 color--light">
+            Terms
+          </a>
+          <a href="#" class="link text--s1 color--light">
+            Privacy
+          </a>
+        </div>
+
+        <div class="f f-justify--center gap--2">
+          <a href="#" class="f icon--circle color--light">
+            <i class="icon icon--min icon--facebook bg-color--light"></i>
+          </a>
+          <a href="#" class="f icon--circle color--light">
+            <i class="icon icon--min icon--twitter bg-color--light"></i>
+          </a>
+          <a href="#" class="f icon--circle color--light">
+            <i class="icon icon--min icon--instagram bg-color--light"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <p class="text text--s2 color--white text--center bg-color--dark-blue">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="color--cyan">Frontend
+      Mentor</a>.
+    Coded by <a href="https://github.com/ee-v" class="color--cyan">ee-v</a>.
+  </p>
+</body>
+
+</html>
