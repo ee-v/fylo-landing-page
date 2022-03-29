@@ -14,16 +14,16 @@
 
 <body class="bg-color--white">
 
-  <header role="navigation" class="navbar f f-align--center f-justify--space-between content">
+  <header class="navbar f f-align--center f-justify--space-between content">
     <img src="./assets/images/logo.svg" alt="Fylo logo" class="navbar-logo">
-    <nav class="navbar-links">
+    <nav role="navigation" class="navbar-links">
       <a href="#" aria-label="Features">Features</a>
       <a href="#" aria-label="Team">Team</a>
       <a href="#" aria-label="Sign In">Sign In</a>
     </nav>
   </header>
 
-  <main role="main">
+  <main>
     <section class="f f-col--sm f-col-reverse--lg content padding-vertical--section gap-1--md gap-1--lg">
       <img src="./assets/images/illustration-1.svg" alt="Files" class="img padding-vertical">
       <div class="f f-col f-align--center f-align-start--lg f-justify--center w-100p--lg">
@@ -114,8 +114,7 @@
     </section>
   </main>
 
-  <footer role="contentinfo"
-    class="bg-color--dark-blue color--light padding-vertical--section-mid padding-vertical-section-mid--lg">
+  <footer class="bg-color--dark-blue color--light padding-vertical--section-mid padding-vertical-section-mid--lg">
     <div class="content padding-horizontal--sm f f-col gap-mid--sm gap-2--md gap-2--lg">
       <span class="icon icon--logo bg-color--light"></span>
 
@@ -132,39 +131,39 @@
         </div>
 
         <div class="f f-col gap--1">
-          <a href="#" class="link text--s1 color--light">
+          <a href="#" aria-label="About Us" class="link text--s1 color--light">
             About Us</a>
-          <a href="#" class="link text--s1 color--light">
+          <a href="#" aria-label="Jobs" class="link text--s1 color--light">
             Jobs
           </a>
-          <a href="#" class="link text--s1 color--light">
+          <a href="#" aria-label="Press" class="link text--s1 color--light">
             Press
           </a>
-          <a href="#" class="link text--s1 color--light">
+          <a href="#" aria-label="Blog" class="link text--s1 color--light">
             Blog
           </a>
         </div>
 
         <div class="f f-col gap--1">
-          <a href="#" class="link text--s1 color--light">
+          <a href="#" aria-label="Contact Us" class="link text--s1 color--light">
             Contact Us
           </a>
-          <a href="#" class="link text--s1 color--light">
+          <a href="#" aria-label="Terms" class="link text--s1 color--light">
             Terms
           </a>
-          <a href="#" class="link text--s1 color--light">
+          <a href="#" aria-label="Privacy" class="link text--s1 color--light">
             Privacy
           </a>
         </div>
 
         <div class="f f-justify--center gap--2">
-          <a href="#" class="f icon--circle color--light">
+          <a href="#" aria-label="Facebbok page" class="f icon--circle color--light">
             <i class="icon icon--min icon--facebook bg-color--light"></i>
           </a>
-          <a href="#" class="f icon--circle color--light">
+          <a href="#" aria-label="Twitter page" class="f icon--circle color--light">
             <i class="icon icon--min icon--twitter bg-color--light"></i>
           </a>
-          <a href="#" class="f icon--circle color--light">
+          <a href="#" aria-label="Instagram page" class="f icon--circle color--light">
             <i class="icon icon--min icon--instagram bg-color--light"></i>
           </a>
         </div>
@@ -172,7 +171,7 @@
     </div>
   </footer>
 
-  <p class="text text--s2 color--white text--center bg-color--dark-blue">
+  <p role="contentinfo" class="text text--s2 color--white text--center bg-color--dark-blue">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="color--cyan">Frontend
       Mentor</a>.
     Coded by <a href="https://github.com/ee-v" class="color--cyan">ee-v</a>.

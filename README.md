@@ -35,8 +35,8 @@ Desktop:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/fylo-landing-page-flexbox-and-media-queries-SJY4yyxXc)
+- Live Site URL: [Live Preview](https://ee-v.github.io/fylo-landing-page/)
 
 ## My process
 
